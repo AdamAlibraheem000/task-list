@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Daily List</h1>
-    <a href="/">Homepage</a>
+    <main class="container-daily">
+        <section>
+            <h1>Daily List</h1>
+            <a href="/">Homepage</a>
+            <a href="master.html ">Master List</a>
+        </section>
+        
+        <section>
+            <label for="new-task">Enter Task</label>
+            <input type="text" id="new-task">
+            <button class="btn-submit">Submit</button>
+        </section>
+
+        <section class="task-list">
+            <p class="task">Task One <i class="fa-solid fa-square-check"></i></p>
+            <p class="task">Task Two <i class="fa-regular fa-square"></i></p>
+        </section>
+        
+     
+    </main>
+     
 </body>
 </html>
